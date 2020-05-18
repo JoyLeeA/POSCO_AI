@@ -2,9 +2,7 @@
 
 ## x,y(continuous)							
 
-x -> weight matrix1 -> non - linear activation -> weight matrix2 -> non - linear..->
-	bias1								bias
-	레이어1							      레이어2
+x -> weight matrix1(bias1,layer1) -> non - linear activation -> weight matrix2(bias, layer2) -> non - linear..->
 	
 비선형 적인 non -linear activation 추가를 통해, 비선형적인 결과를 얻을 수 있음.
 
