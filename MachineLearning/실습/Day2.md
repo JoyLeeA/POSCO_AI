@@ -2,7 +2,7 @@
 
 ## x,y(continuous)
 
-	layer1								layer 2
+	"layer1"							"layer 2"
 x -> weight matrix1 -> non - linear activation -> weight matrix2 -> non - linear..->
 	bias1								bias2
 
