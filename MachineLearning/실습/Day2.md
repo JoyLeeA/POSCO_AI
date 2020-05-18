@@ -1,11 +1,11 @@
 # Day 2
 
-## x,y(continuous)
+## x,y(continuous)							
 
-	"layer1"							"layer 2"
 x -> weight matrix1 -> non - linear activation -> weight matrix2 -> non - linear..->
-	bias1								bias2
-
+	bias1								bias
+	레이어1							      레이어2
+	
 비선형 적인 non -linear activation 추가를 통해, 비선형적인 결과를 얻을 수 있음.
 
 ## hyperparameter: 사용자가 validation dataset을 통해 찾아야 하는 파라미터 값들
@@ -13,11 +13,11 @@ x -> weight matrix1 -> non - linear activation -> weight matrix2 -> non - linear
 2.layer개수
 3.각각의 layer의 weight의 크기
 
-## epoch: 전체 데이터를 한 번 다 보는 것
+epoch: 전체 데이터를 한 번 다 보는 것
 
-## iteration: batch를 한번 보는 것
+iteration: batch를 한번 보는 것
 
-## nn.Linear() <-- neural network에서 layer를 나타냅니다. (weight matrix, bias vector)
+nn.Linear() <-- neural network에서 layer를 나타냅니다. (weight matrix, bias vector)
 nn.Linear(row의 개수, column의 개수)
 
 하나의 layer는 weight matrix bias vector
