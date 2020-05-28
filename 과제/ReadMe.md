@@ -15,3 +15,26 @@ MNIST 와 CIFAR10 학습 모델 생성
 
 ## Artificial Intelligence
 ### 과제3
+[AI Search Algorithm] Joint Task를 구현
+
+Joint Task란 띄어쓰기가 없고 모음이 없는 문자열에 띄어쓰기와 모음을 삽입해 자연스러운 문장을 생성하는 작업임
+ex> "mgnllthppl" => "imagine all the people"
+
+[주의사항]
+1) joint_task.py의 JointSegmentationInsertionProblem 클래스의 succ_and_cost 멤버 함수 구현
+2) raise NotImplementedError('not implemented') 지우고 구현
+3) succ_and_cost와 __main__ 이외의 코드 수정 금지
+4) python joint_task.py로 간단한 테스트를 수행 가능
+
+###과제4
+[MDP & RL] Peeking Blackjack
+
+Peeking Blackjack이란 다음 카드를 엿볼 수 있는 Blackjack임
+
+[주의사항]
+1) blackjack.py의 BlackjackMDP 클래스의 succAndProbReward 멤버 함수 구현
+2) _FILL_IN_을 지우고 구현
+3) _FILL_IN와 __main__ 이외의 코드 수정 금지
+4) python balckjack.py로 간단한 테스트를 수행 가능
+
+## Computer Vision
