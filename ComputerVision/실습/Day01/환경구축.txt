@@ -1,0 +1,19 @@
+아래 환경을 기준으로 실습코드를 작성하였습니다.
+환경 설치에 오래 걸릴 수 있기 때문에 실습 전 설치 해두시는 것을 추천드립니다.
+
+$ conda create -n edu python=3.6 jupyter numpy matplotlib scikit-learn scikit-image seaborn cudatoolkit=9.0 tensorflow-gpu=1.12.0 keras=2.2.4
+$ conda activate edu
+$ pip install opencv-python tqdm
+$ python -m ipykernel install --user --name edu
+
+####################################
+
+python 3.6
+cuda 9.0
+cudatoolkit 9.0
+cudnn 설치
+tensorflow 1.12.0
+keras 2.2.4
+
+
+

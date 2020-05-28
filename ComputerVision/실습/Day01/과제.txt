@@ -1,0 +1,11 @@
+* Traditional Image Classification 과제
+
+hog_svm_image_classification.ipynb 파일에서
+
+1. extract_features 함수에 들어갈 적절한 코드를 작성 [50점]
+2. HOG + SVM Classification 모델의 Test score 측정 [50점]
+(Test score 1%당 1점, Test score 50% 이상 50점, 백분율 기준 소수 첫째자리에서 반올림)
+ex) Test score가 0.425일 경우 42.5% 이므로 43점
+
+제출 양식 : 
+파일명 앞에 학번을 붙여서 "학번_hog_svm_image_classification.py" 또는 "학번_hog_svm_image_classification.ipynb" 파일로 제출하여 주시기 바랍니다.
